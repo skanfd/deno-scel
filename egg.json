@@ -1,0 +1,17 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.1/src/schema.json",
+  "name": "scel",
+  "entry": "./mod.ts",
+  "description": "Sogou scel parser and ibus-libpinyin dict transformer.",
+  "homepage": "https://github.com/skanfd/deno-scel",
+  "version": "1.0.1",
+  "unlisted": false,
+  "stable": true,
+  "files": [
+    "./mod.ts",
+    "./README.md",
+    "./LICENSE"
+  ],
+  "ignore": [],
+  "check": true
+}

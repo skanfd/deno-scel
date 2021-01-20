@@ -11,7 +11,7 @@ Ported from [scel-parser](https://github.com/iftech-engineering/scel-parser).
 ## Installation
 
 ```bash
-deno install --allow-read --name scel2ibus mod.ts
+deno install --allow-read --name scel2ibus https://x.nest.land/scel@1.0.0/mod.ts
 ```
 
 ## Usage
@@ -31,7 +31,7 @@ find . -name *.scel -exec scel2ibus {} \; > ibusdict.txt
 ### Programmatically
 
 ```typescript
-import { scel2ibus, ScelParser } from "./mod.ts";
+import { scel2ibus, ScelParser } from "https://x.nest.land/scel@1.0.0/mod.ts";
 
 const buf = Deno.readFileSync("./testfile/物理.scel");
 
